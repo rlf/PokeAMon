@@ -1,0 +1,11 @@
+name: ${project.name}
+main: ${package.name}.${project.name}
+author: R4zorax
+version: ${project.version}
+description: Poke A Monster v${gitTag}-${buildNumber}-${travis.buildNumber}
+depend: [NPCLib]
+softdepend: []
+commands:
+  pokeamon:
+    description: Main Poke A Mon command
+    aliases: ['pa']

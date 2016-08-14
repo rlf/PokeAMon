@@ -1,0 +1,549 @@
+#
+# Main Config File for PokeAMon
+#
+# Contains categories of monsters
+categories:
+  earth:
+    multiplier:
+      earth: 1
+      wind: 0.9
+      water: 1.1
+      fire: 1
+  wind:
+    multiplier:
+      earth: 1.1
+      wind: 1
+      water: 1
+      fire: 0.9
+  water:
+    multiplier:
+      earth: 0.9
+      wind: 1
+      water: 1
+      fire: 1.1
+  fire:
+    multiplier:
+      earth: 1
+      wind: 1.1
+      water: 0.9
+      fire: 1
+
+monsters:
+  Magikarp:
+    name: 'Magikarp'
+    id: "41dac880-eb6f-422e-9dc0-f7dec0e12933"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY1OGZiN2NiZjlmOGRjZmMzYmM5ZDYxYzdjYjViMjI5YmY0OWRiMTEwMTMzNmZmZGMyZDA4N2MwYjk0MTYyIn19fQ=='
+  Squirtle:
+    name: 'Squirtle'
+    id: "84bef394-4bd1-4e65-aafb-2c746cb54a94"
+    #texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjUzZWJjOTc2Y2I2NzcxZjNlOTUxMTdiMzI2ODQyZmY3ODEyYzc0MGJlY2U5NmJiODg1ODM0NmQ4NDEifX19'
+    texture: 'eyJ0aW1lc3RhbXAiOjE0NzExMTY5ODI4NTQsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJlNTE5NTk4YzM3NmRiNTFjMmRkZDMzODc4MjlkMDVjMzU2OWEwYzdmMTljNTAxZmRjOTY3NTY3NjFlZDEifX19'
+    signature: 'EzIgPzcG3ycMiivhQEhsw8nhqsZiE3Bry7L3g46lFm1xlMqt8+6DQm/XF3hmlS9V6FgvY57AyjQJzd7NqWNjVKSzwShF55XIFWMCFUeHxn9K0Z9SKVfGoAGRTmerYuHvu7KyFRGkT9z6/RHB4m+ayN3kYlMuVR2HmEqz3tleHQpWorenGy/Okk84R/mfszspMwvCkVBhW+mLjCXhfpF0QuzPMmlaYoybPpw0GjkotWTDSB/cqdJdWivxCFU9vOujJrYNGXeQ560mjX3tUbrVjACqcv54V/efuxfif58zUKTvMErQJI5aY6E9U9w9p+ku3HpS/8IChqFfCpaNYUBVRpw2WDu/xiqwosDiOKWjGFwvTTL2ZdDaVeZmX0iar+ZV1LG1mgQCsl01Fc/eAzgWRbUdMyuusnLqxu4SrovtSGav2fXrz48K6sjutb7khFwgu2yIVKmBuKZe8p+oVV7W5kDMpIvxhm++7nhal22Z90qiVtzBhvQFwmekfbRjJDnuWX3ZWih/WvVrZjP7v9KHwRKXZQAlldn0ZsQam7uJ6xjf3Dafl3utjUCHqpwebF2LFexepZ1NqueGFkI+DhK2GfjYFfP91sfayXYSusMIVu2pluPkU9RxKqL3oT+1EwuKCwrlLwsIQb400Wtj2/44qSFpiWwgYnfHnVrrxHIFXPA='
+  Unfezant:
+    name: 'Unfezant'
+    id: "aa7a717e-dd5a-4e0c-a7a5-ed9f277e6f54"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFmZDFjODNhZjdlN2U1MjIxZWZiMWY0MTQ5ZjdkMTZmNTk4MGEyNTFmMGE1ZDcxYWJlMzY2OTAyMjhhIn19fQ=='
+  Hydreigon:
+    name: 'Hydreigon'
+    id: "7272396b-96cb-414f-bb28-1f83b7af6996"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjM5NzVhYWFkMmRiYzMxN2UzNzg3YmRlYmFiOWZiMWViNDUyNmIzODJmY2NkZmViMTgxMzM5YjIxNTRmYmEzIn19fQ=='
+  Eelektross:
+    name: 'Eelektross'
+    id: "8e11953c-9e7f-4eb6-b1c7-ec6b8f027df5"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU1ZWY2MzRjN2VlOTczY2IwNGZlNDFlMWRiYjJmMDYyYjEyYzA3MjYxNDNkM2JmMjMyYjIzODFmMjRiIn19fQ=='
+  Swanna:
+    name: 'Swanna'
+    id: "52bf248f-61c9-4593-b595-b0c9b46d5510"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGM2MTJkNTQzMzJlY2RhYTQzOGYyMWY3YWZkNTQ0M2U5MTM1NWNkMWM2ODQ0ZjY4YTU3YmVjNmE5M2MzZmExIn19fQ=='
+  Magmar:
+    name: 'Magmar'
+    id: "fc2f9e8c-a1ca-4d06-aa62-2ee2ccbd4f10"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY0NDY2MGU1NGNjMWZlMzE1YTk5Yjk0ZTE5OTExNWM1NGNkNzdjYmY3YzZhZWYyNDcwZGJlZjRmNjhmMzI3In19fQ=='
+  Liepard:
+    name: 'Liepard'
+    id: "51155d4e-0629-4476-bb46-85dc70883cf3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2U4NTI0ZjZhYzc2MjQ4OTViY2EyM2FlN2Q2Nzc3ZGE1YWMxYWQwZDcyNmJmNGU1Njg0Y2E2ZmRiYzI5MjliIn19fQ=='
+  Lilligant:
+    name: 'Lilligant'
+    id: "0833c982-551d-486c-a6bd-ce329180bfc8"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNlMWZhYTk5M2E0N2JkYTliYzdkZTBjNjkzY2E2YzgyNzI2NjI2YmQyNWE3YzA2NGQ3YWY3Nzk2MzZhIn19fQ=='
+  Bisharp:
+    name: 'Bisharp'
+    id: "8919374c-ad78-4495-bc17-ef133ac47f0f"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTVmZTg3NzA0MmRlMzAyZjg4ZGI3ZGUyYWMwN2NlY2RkM2NiOGI3NzFkNGMwNTVhMzcyMzAzMzIxNWQ1YyJ9fX0='
+  Gyarados:
+    name: 'Gyarados'
+    id: "7383215b-faa8-4b28-a897-6f224c3e4fae"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFiOTNhZjY2OGNiODNlMzc5ZTllZGJjZGM0NTMyZjEyOTRmOTBjYjEzZGU2YTU4MmVmYWI4NzY5NmMzNmRkIn19fQ=='
+  Beartic:
+    name: 'Beartic'
+    id: "94143e12-c86b-46e4-af48-717563539f8c"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I2MDhlZDQ1MjM4MjVhNjFmNGJhYWI4OTZlMzhlYmRiYjgzZWUxNDlkNDQwYjlhNGUxMmJjOWVmZmI0YSJ9fX0='
+  Scrafty:
+    name: 'Scrafty'
+    id: "fb3a89e4-0833-3359-a1ea-e803fa5edec8"
+    texture: 'eyJ0aW1lc3RhbXAiOjE0NzExMTY5ODI4NTQsInByb2ZpbGVJZCI6IjNlMjZiMDk3MWFjZDRjNmQ5MzVjNmFkYjE1YjYyMDNhIiwicHJvZmlsZU5hbWUiOiJOYWhlbGUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJlNTE5NTk4YzM3NmRiNTFjMmRkZDMzODc4MjlkMDVjMzU2OWEwYzdmMTljNTAxZmRjOTY3NTY3NjFlZDEifX19'
+    signature: 'EzIgPzcG3ycMiivhQEhsw8nhqsZiE3Bry7L3g46lFm1xlMqt8+6DQm/XF3hmlS9V6FgvY57AyjQJzd7NqWNjVKSzwShF55XIFWMCFUeHxn9K0Z9SKVfGoAGRTmerYuHvu7KyFRGkT9z6/RHB4m+ayN3kYlMuVR2HmEqz3tleHQpWorenGy/Okk84R/mfszspMwvCkVBhW+mLjCXhfpF0QuzPMmlaYoybPpw0GjkotWTDSB/cqdJdWivxCFU9vOujJrYNGXeQ560mjX3tUbrVjACqcv54V/efuxfif58zUKTvMErQJI5aY6E9U9w9p+ku3HpS/8IChqFfCpaNYUBVRpw2WDu/xiqwosDiOKWjGFwvTTL2ZdDaVeZmX0iar+ZV1LG1mgQCsl01Fc/eAzgWRbUdMyuusnLqxu4SrovtSGav2fXrz48K6sjutb7khFwgu2yIVKmBuKZe8p+oVV7W5kDMpIvxhm++7nhal22Z90qiVtzBhvQFwmekfbRjJDnuWX3ZWih/WvVrZjP7v9KHwRKXZQAlldn0ZsQam7uJ6xjf3Dafl3utjUCHqpwebF2LFexepZ1NqueGFkI+DhK2GfjYFfP91sfayXYSusMIVu2pluPkU9RxKqL3oT+1EwuKCwrlLwsIQb400Wtj2/44qSFpiWwgYnfHnVrrxHIFXPA='
+  Darmanitan:
+    name: 'Darmanitan'
+    id: "7a039e1c-5682-4dc6-9751-3e3029cd9e99"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWViZWZmYTQ2MzU1NzU4Nzk1YTE1MzYzOWZjMTQxMWZkZmRkOTFlYzEzYzEyNjZjZTZiODc1ODVlMmZjMSJ9fX0='
+  Axew:
+    name: 'Axew'
+    id: "482e00a0-578d-4aff-bc33-7c248eca69a0"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE3Y2MxY2I4NDkyNDkzNTQ4YzkwZDcxNGMyM2U4ZTcxYTFmY2QwZDQ3YTQzYzExNDk5ZDJjMmJjNDIyIn19fQ=='
+  Nurse Joy:
+    name: 'Nurse Joy'
+    id: "bda33152-221f-4d17-b26d-601db5dd3a91"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNkZTM4YTFjZWVhNmQ5NDkzZGYxOWE4YjU1YmIyMzg3MTFjZDVkYTRmNDM1ZDJlYzAyNjM3NmQ4NzQ2NDcifX19'
+  Patrat:
+    name: 'Patrat'
+    id: "7412ab21-cf28-41a7-bf21-b9b18d53c821"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJmZTRhNTliMTY0NTQ4NzMyZmQ1Yjc1NGYyNjY0MTE5NjlhMmMyZmViMDhhODliNDBhMTI5MzI0NGFiZWMifX19'
+  Throh:
+    name: 'Throh'
+    id: "cea61351-2b5c-4d3e-bf3e-7435499ae85a"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlmM2FjYjkzN2VlYTVmZjQ0N2U0ZDQ1MzA4NjM1ZjZhYzc5MjNiMGE1MDRjY2QyYzhmNjcxODUzYjJlZGMifX19'
+  Sawk:
+    name: 'Sawk'
+    id: "a0920152-b8af-47df-b7f7-833fb59302a1"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVmOWMxZDVmM2JiNGIxOTcyM2JkZDg1ZjIxOTY3NWRhMGZjOWRlYzVkOGFiMmU5NGEzZDlmY2FiMmQ1NzYifX19'
+  Zebstrika:
+    name: 'Zebstrika'
+    id: "03aae7f2-d654-40f8-950e-11523eaff12e"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzRlOGE0N2U1NTI5NGVhZTY2ZTI1MDI3NGJhYTE1YzExNTU0YzA2MjRiNjMzY2MxZDE3ODc4NzVlNGIxMjYifX19'
+  Charmeleon:
+    name: 'Charmeleon'
+    id: "35f8c64c-89b0-4ec6-92fe-49140f0b4388"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMxNzExZjMzNjY1YjNlMWU5OWVkOGY1ZjUwYTYzZTNmNmRlYzcyMWFmMjM5MWUzNGY4M2UxNWNlMjdhZiJ9fX0='
+  Sylveon:
+    name: 'Sylveon'
+    id: "784a64fc-578e-4f10-acfc-92301640176e"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc3YTEyMmU2NjI4NmJlODUwNGU3Mjk3OWI0NzkxMmJiZTY5MTM2YzJlYWM2MWJhYTJiNzYzMWQ3ZTkyNmIifX19'
+  Leafeon:
+    name: 'Leafeon'
+    id: "2ec3e661-59b4-4379-a3c8-3192b50af584"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc5ZGFhMjFmOWVlZWI2ZGM3ZjY1NmIwNTVkNmFjMzA5MGIzYzU4NmNiZTQxMWI5MWZiOTgyOTg1MGRhN2M4NSJ9fX0='
+  Glaceon:
+    name: 'Glaceon'
+    id: "6542896c-05a3-4576-9912-29764e0d68bb"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRjNTNiNzUzZGVlMWFmOTE4MTljZjI5OWJiNDRlZTk2ODI5MzYxMTQ5YTg4N2IwMWFkOTc0MWNjNzhiM2UifX19'
+  Umbreon:
+    name: 'Umbreon'
+    id: "f0edba69-9fcf-489f-b892-3dafb424e1bd"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhOGY2NzcyMmJlZjA5M2M2N2NjZTE0NTg3ZDY3YjM3NWUyN2E4MmZhNzc3YTg4MjE4YmExMWFmOWMxM2IifX19'
+  Espeon:
+    name: 'Espeon'
+    id: "73feda6c-40dd-465c-8295-82521535d6a2"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNjMzc1MTAyYmE0MTkxNjI5N2Q3MjQ1MmNjNDgyYzc1Mjg1Yjk4ZTQzZGI2N2VlNWY0OTkyYWVhMDQzZTJiMSJ9fX0='
+  Flareon:
+    name: 'Flareon'
+    id: "561e946b-b95a-4e50-8d05-fa8aa144a891"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM2NTg3MmViZWE1ZWE5ZDE4MDQ5YWIxY2RiOGY1ODZmNDI5ZTc4NDYxMGEzN2ZiZmI2NmI2ZGM2MzcyIn19fQ=='
+  Vaporeon:
+    name: 'Vaporeon'
+    id: "b15f9388-d603-4bb6-a6c1-626dc13dc232"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjFiNzllZTZiNjFjMTFlNmExMjliMTljNzdiZDMwN2E0ODJmZWM1YWIzNjNjNjZhYjFmMWU0MjY1ZDMyNzU5In19fQ=='
+  Jolteon:
+    name: 'Jolteon'
+    id: "9e4eeaf1-c676-4509-ba97-f7f8b0bd9684"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBkOGM0ODUzMzI2ZjAzNWIwMTA1ZWQ2OTgwMWE5MDljYTBiNzJlMDgxZmFjMDQ3N2MxZmU1NDc3MDI0YTUifX19'
+  Pikachu:
+    name: 'Pikachu'
+    id: "4df31c2f-01c2-4f61-aaf3-41282f136340"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGZhNjk1YjU5NjE4YjM2MTZiNmFhYTkxMGM1YTEwMTQ2MTk1ZWRkNjM2N2QyNWU5Mzk5YTc0Y2VlZjk2NiJ9fX0='
+  Cobalion:
+    name: 'Cobalion'
+    id: "36587d8a-60d2-489f-ac77-bdb8a18dd21b"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFjNTM2YzhmYmE1OTZhZTk3ZWE1MGQ2ODNmMWViYjg5NWRkZjY2MmFkY2VkYTkxNjkwYmM1OTdkMzg0MyJ9fX0='
+  Caterpie:
+    name: 'Caterpie'
+    id: "13f3e9dc-25cd-4486-884c-f09eb7730aa8"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGFhMjUzZmFkZDg5N2E2YTE5YWFkMzk1OWM0NGZiNGNlYWM1YThjYTU4OGYxMGU1MmVjOGNmYmI0MTQ0YzZkIn19fQ=='
+  Ash:
+    name: 'Ash'
+    id: "83834e05-c504-40e2-88ba-b97576aaef99"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY5YWI4YjBmMTlhMWM5OWZlM2FkODZlYTFhMmVhMmJlZWVmYmE4ZTFiOTM0MzMwODc0M2I3YmNiZDgifX19'
+  Xerneas:
+    name: 'Xerneas'
+    id: "6b18d73c-4867-4b5e-a519-6b4c7cd1d274"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMxMjNmNTk1OWNlOGQ4MjEwZjY3MmFhNTQ5MWI2YjUwYjk3ZjI3ZTNhODQ2ZDU1ZDM1MmJjMmY0YzllYiJ9fX0='
+  Delphox:
+    name: 'Delphox'
+    id: "638d27c1-66bf-40a5-9820-dfa51a5f70bd"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I1NWM2NGI1NTVjN2Y4NjU0YzU1Yzc3OTNhN2UzOWFiZjVlZTRkOGNiN2FmOThhOGYxOTdkYWFmYjZhMGRhIn19fQ=='
+  Chesnaught:
+    name: 'Chesnaught'
+    id: "0f9c95f4-d4d0-46d2-9728-1f5c5582b44f"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY4NmFlYzIzZjNhODQ3ODJhZGUzZTUzYmFmN2I4YmYyYjNhNTExM2UyNDg3MmNlMmRkYmYzMTFmOThkNjEyZCJ9fX0='
+  Keldeo:
+    name: 'Keldeo'
+    id: "e321c45f-dd51-4ce1-99b1-3f89f51296ba"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc0ZWIxZDU5MmQ2MmU5MmMxZTZiNzc3NDI4MTBlMzJmZDQ1MGY3OWJlZjlhOWVmOWQ1NjRmM2NjYjI5OTAifX19'
+  Kyurem:
+    name: 'Kyurem'
+    id: "e4982169-8740-4d94-8f60-a7c3d62016b7"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmI5ZjgyNWRkN2M5ZDU4YWMyMjBiYzk0MjgyNTE3Y2UzOWVhOTA1MGUxN2E4M2U0OTJkM2FhMWZiOThlZGQ4MSJ9fX0='
+  Zekrom:
+    name: 'Zekrom'
+    id: "ef5ea4a6-a738-4db7-8931-07533f579dd4"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZlN2UxMzQ2YWZmMjUzMjE2ZWUwY2UxNDRmNmMzZDY2NGQwZDFkYzZkOWY2ZGI0NzE4M2NjNjc5Y2UwNDMifX19'
+  Reshiram:
+    name: 'Reshiram'
+    id: "d81a8b6a-59ab-43ee-b308-1cc7235c42c4"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZmMzNkZTg4NzZlM2NkZDg5YWU4MTgzNWYzYWZmYzk0NmJjNDk4MzkzYzM2NDRjZmEwNGI2YTZjODlkMmZkIn19fQ=='
+  Scraggy:
+    name: 'Scraggy'
+    id: "20c64495-aa57-4f72-9a19-d8968b70eeca"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFiZTM0ZTFlNTQyMTg0NWM0Yzk3Y2I5YTllZjg5ZjJmZGNjYzkyYjFlMmQ0ZDlhYmIxMzIzMzllOTAifX19'
+  Samurott:
+    name: 'Samurott'
+    id: "20d93475-1acd-4fae-964a-932758177365"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc2OGJkMjVhMjM5MWJhOWQyN2ZmNmU2NmVmYzhlMzQ2ZDE3NjRiODViNDdiM2M4MWU3NDQ4MWVjZTIyZmYifX19'
+  Emboar:
+    name: 'Emboar'
+    id: "5ee24dbd-772d-4e83-ba6d-9a19c6b274ca"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzcxYWE1ZjAxMTQ0MzlkOTE4ZjllYjJlYTc4M2QzYTk2Zjc5MTkyNzY3ZDA1NWZjY2EzMWViNmZiNTExNGFmMiJ9fX0='
+  Serperior:
+    name: 'Serperior'
+    id: "6f9c1854-4050-455e-b3a8-333b3d18d9d8"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ1NzljMzE1ZjE2ZGNjOWI0OWQyN2JhMWQ2YTBmMzM3M2RlYTlkZWViZGE0MzYxMGMxYTcxM2VjODg0Y2QifX19'
+  Victini:
+    name: 'Victini'
+    id: "54049f77-ea2e-4a7e-8cae-b03e55077227"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQxNDg1NGM4NjRmN2NiMWI0YjUyNTA5YTJmNDJlOTNiMmNhZGFlZGQyODlmYjIxZGRlYWNlNmQ4NzdkNTkifX19'
+  Shaymin:
+    name: 'Shaymin'
+    id: "eef4e1a9-5e5e-4d74-ace0-53477d6c34df"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmY1OGJmOWY4MTYzN2QzNjRlYWU3MTAzN2FhMGE1YzRjM2E0NmIyMTY5N2E2YmRkMWQxZjY1M2Y1YSJ9fX0='
+  Darkrai:
+    name: 'Darkrai'
+    id: "4a7ad70f-006e-42f6-92a6-3592b0a4f33a"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRlZTdlZDNmNmVkZGMxMDE3YWI4Y2I1NTgzZTE3ZmI3Mjc5ZDY1NmE5ZGEwYzI4MzhkYjM2ZDIxN2QzOSJ9fX0='
+  Giratina:
+    name: 'Giratina'
+    id: "f7cad43a-6b9c-429a-8e37-33fbd8fc0763"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2ZTI5NTBlNzhhYzBkMWIxOWFiYWM5ZDY2YmQ0ZGViMGRjNTlhYzQ0NGYxODQxZThhN2RlODMxNmVhYWIyNCJ9fX0='
+  Palkia:
+    name: 'Palkia'
+    id: "20c79cae-eb30-481e-a6f1-e53f60c31e45"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNhODk0MThlY2VmMTZmNWU0ODliYjI4NzRiZmIyYjBiMzExODRjNDE0NGIzZTc4ZTUzNGVkYmEzNTY4OTIxMSJ9fX0='
+  Dialga:
+    name: 'Dialga'
+    id: "a6cab1b3-8739-40ca-8ab1-e7defdef758b"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFhZWQ4NGVhNGMzZTA2YWJhMzkyYTM1MTU1NWU0ZTk0Mjk3MTY2YmFlZWQ1MTRjOTI3OTE4ZTU2NGU2NTgzNCJ9fX0='
+  Empoleon:
+    name: 'Empoleon'
+    id: "265c71b6-9404-450b-b442-1b9c83834a4f"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDI2MjFkNzY2YzRlNjlmODU5MjhiZTRjZWRhMGI5OTZlOTVmNWEyMGZlOTYyMzJiZDAyZWQ0Mjc1MGQifX19'
+  Piplup:
+    name: 'Piplup'
+    id: "2f98d438-0b72-4d6b-a8a2-5b0eb1f7535a"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEzY2U3Y2FlODM1YjlkNjc3YTY3NTNlMjVjNjg4OTY2YWI2NzAyMTliNmE1Nzg4OGQyZWY3ZDI4MzNkZGI2OCJ9fX0='
+  Infernape:
+    name: 'Infernape'
+    id: "57ccc770-4bb7-489f-941c-f627ed3204cf"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBkYzhhZjljYzY4ZmYxZjJkN2I0YzY4MDc1MWYyMGRkY2MyMGYxNjYzZWNjOTAyYjVkMmI0ZjdiNzRkMWY2In19fQ=='
+  Torterra:
+    name: 'Torterra'
+    id: "b229c2db-ad14-4150-bab6-6af2d933bd53"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRjNTcxYTVlODI4NWRjOGYyZmI2MWM5MThmYTQ3OWUyNzc5Yzg2ZDE2Yzk4MjUxOWRkNzUxY2NlNTAifX19'
+  Deoxys:
+    name: 'Deoxys'
+    id: "3e83ce31-be22-414b-8a6c-cdf611847fb6"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDU5YjI4NGIzOTczN2QzMjQ5MzU3MjhhNzcxZWQxZWRiYmJlMzRhMjk4YWY2ZmMxN2JmMDdjMjczNWY0OCJ9fX0='
+  Rayquaza:
+    name: 'Rayquaza'
+    id: "7198bbee-3d2a-4ccc-9620-ff4236eccbc5"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2EzZWI1OTc3ZDdkMmRmN2NmMDZiZTE3ZTFmNmQwZWVkNWJiYzViYTM0MzM4Y2YyYmJiODk4NGE1ZDVhYiJ9fX0='
+  Groudon:
+    name: 'Groudon'
+    id: "d4b139c7-5e28-4e4a-99c2-fbf7ab5b7be9"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg0NjVlODZmZmRhYjhlYmY3YjhjZDNhZmY1ZDQ0ZjNhM2M5YmUxODhlZTcxNjZlYjU0MGRjNjhmMTliYjgifX19'
+  Kyogre:
+    name: 'Kyogre'
+    id: "d1c25dac-b26a-40fa-8755-0d7549f27f92"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFlOTdlNjI3Y2FmMzEzY2Q5YmY4ZGRlZDQxNzUzZTIyYTdmNDM4MWQxM2UzZTYyMmExNmMwYTA0Nzg1NjM2YyJ9fX0='
+  Latios:
+    name: 'Latios'
+    id: "418a4af1-de04-4a61-b449-a5e34654ae6b"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE3ZjQ1OTQ3YzliMjc1M2U1OTM0NTZiODdjOGNmZGFkYjA4YzdiOWE2N2M3NTM1ZDlkMzc5NGNhNmUzNmEifX19'
+  Latias:
+    name: 'Latias'
+    id: "bb12df08-0ce9-423b-9c60-c2b28bb34b10"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2E3MzhjZjU0ZWNiYThhYmZlOGZkYmIyNTQwNzc5ODg5MTIyZWExYTcxZjZjNzBkNDJlZDRlMThlZWQ0YmEifX19'
+  Salamence:
+    name: 'Salamence'
+    id: "508c3fe3-3334-4725-b676-7fdb6a5188a9"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWU2NDhhNmU2OTg4N2QzMjgxODgyNzBmNjY1NTI1YmEzOTllMzQ0ODc1NzE1ODliOGYzZjU2OTY0MThlZmMifX19'
+  Blaziken:
+    name: 'Blaziken'
+    id: "9aa27472-dc1b-48fc-8db0-5454a9c106f6"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGVkYzVhYzljOTQ0N2UzYTdhOTI2ZmJjNTRkY2Y2NmQ1ZTM3M2I0OTIxMDgzYTFmZmYwNzQyMzk1YzkyYyJ9fX0='
+  Sceptile:
+    name: 'Sceptile'
+    id: "b69b6cf6-9071-45c0-8b48-6c8f8e79a7ea"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4YjZhY2ZjOGM3MThiNzc1NzY5NDc2YjM4ZjJjM2MwNzJkZDMwZWQyYTM1YTI4MGMwZDNkOGYzYzRlMTgifX19'
+  Ho-Oh:
+    name: 'Ho-Oh'
+    id: "cb8fe255-9b45-462e-968a-143bd762912e"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWViZmJmZTdhNGZjY2JmNTY2YzljZjQ5ZGU1NmU3ODRiZjY0MjFjODZhMzUyNGFhZjU0YjY1Njg5NDJkIn19fQ=='
+  Lugia:
+    name: 'Lugia'
+    id: "5a99bf64-21eb-4791-9aaa-75b231aa6481"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjY5ZjRhY2JkY2YzMjU5M2EwYTljOTdlZmJkZGMwMWZiYTFhMzFhNDFiZWI5ZGIxMzU1NTEzOTM4NmZiMzM3In19fQ=='
+  Suicune:
+    name: 'Suicune'
+    id: "1903ef50-c853-4bf1-8473-f11a670317f4"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjIyYmM5NWFmMDU1N2E1OTQwNDYyMDI1ZjI1M2U5NDk0Y2ZjYzU2YzVmZjQwNWUxODgwNWQxMzNhODdlZmQyIn19fQ=='
+  Entei:
+    name: 'Entei'
+    id: "6755dff2-bbd0-4ff6-a57c-c72ff3a4f0af"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE0YWVlM2Y1MmU4MjcxODViOWI5ODJmNWZhNjU0ZmNiZGRhMzY1NzI2MWNlN2I1MzE0YzFiMjU3NmE4YTg1In19fQ=='
+  Raikou:
+    name: 'Raikou'
+    id: "aa2b7ffb-a35c-4aea-be55-dc8445ece09c"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU5YzgxMWMzNGQzY2VlNGQ1MTM4MzE3Zjc1M2NlMmU4ZGQxYjdiYWRlODhiY2RiYmI1ZDc0ZjVhMjFhODI4ZCJ9fX0='
+  Typhlosion:
+    name: 'Typhlosion'
+    id: "1e97315a-ede7-4e46-8231-29586bd1c95f"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2ZlMTRhY2NlOTA2OWY2NWVkYjM0ZTNhZDMyZjRkMzM4MTE2ZjcxZWE3YTg0MWU2YzU2NDM2MjhjMzlmMWI3In19fQ=='
+  Meganium:
+    name: 'Meganium'
+    id: "47323663-bf26-44ef-9086-20bb436aa026"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmFiNjhmNjNjNTVhZDNhZWIxNjE2N2EyZjk4ODk0YzE1ZWI4ZWFmMmMzNWE5M2JlYzRhNzczZDY0Y2E5YmFmIn19fQ=='
+  Mewtwo:
+    name: 'Mewtwo'
+    id: "afde4ccb-f3bd-4c26-9874-7b5358cb420b"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQyYzRiNDgxZjMyN2Y0NDAyMmJhYjM5M2E0MTg4NzRiM2Y0NWFjZmMzYmRmMDYwOWE4ODk0NDRiMzQ2In19fQ=='
+  Dragonite:
+    name: 'Dragonite'
+    id: "f6c17981-87bf-430f-bb16-0de1a4b9e77c"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjE1MTY0ZGNlZGY4OGViMjY2YzY3NWJmZDc1YzU2N2MzN2IzNmIyN2UwNjQ2OWYzYTQ0Y2UyNjk3ZWQxNTQifX19'
+  Blastoise:
+    name: 'Blastoise'
+    id: "9832aa9b-9fd7-41d8-baa8-7ea01ca8a6fc"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDFkZjJiYjkxZjQzOTBhYWNmYTJjM2FhYmZlM2RlMDI2OWY0ZWI4YjhmMmRmZGJhMmVmYThjYWZjOTNkZGQifX19'
+  Venusaur:
+    name: 'Venusaur'
+    id: "b6f38f80-a53f-4502-8b5f-dd2649d8b384"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjczMzFjNTMxNDVjNmIxNzY2YzVlNGFkN2Q5ODI0YjI4ZmE4ZmVlMjc3NTMzYzhmNDUxZjljNTA3MDIyOGE0MiJ9fX0='
+  Charizard:
+    name: 'Charizard'
+    id: "a1c04025-6c40-4862-a14e-b53b8e3a0fed"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkzN2ZiYTBiMWU5ODg1ZmI0YTg0YzkxNTA1MTNkZWU4YjIxN2NkMDRmMTQwZDI1MDVjYWI4YWUzOWI1ZDQifX19'
+  Lucario:
+    name: 'Lucario'
+    id: "c89b7aad-c4c7-494a-8cec-66a8587f82ad"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjlkODM2NjU5MmQ5ZTJiYTg0Y2Y1MjEwMmY3MjM5N2Y3Y2NkMjg2YmFjNjIxMzNjMGE3MTA5MWZlYmUifX19'
+  Feraligatr:
+    name: 'Feraligatr'
+    id: "85d6d7c5-ad97-495e-b815-42660b11a4ba"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWY5MTllN2E1NWY5NWMyN2NmOTk1YjdhNWEzY2RlYzIyYWI5OTdmOGRmZmQ0MTQxZWEwOGRmNjZjNjBjZDVkIn19fQ=='
+  Pidgeot:
+    name: 'Pidgeot'
+    id: "a20bdb44-c996-46a1-86f2-4ab799708f32"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZjOTZhZWY2NTU4ZjI5YjI0N2JjOGUzOGQ5MzIwNjE0M2YxMzE0NDc1YzVmY2QxMWUyZWZjYzVkYjU1ZTg1In19fQ=='
+  Pidgey:
+    name: 'Pidgey'
+    id: "cefdef33-be77-49b1-a1c3-f052c4515ee3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMDE2ZjU5NWU4ZjY3OTFiYzE1NDY1OWE4OTc2ZjZhOGZmZDk4NDdjZjc1YTJiZjYzOTkyZTNhNjU1ZTAifX19'
+  Metapod:
+    name: 'Metapod'
+    id: "9174d869-a845-41eb-a51f-4b6977e22d65"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTFlZWUyYWNlOGI0YTg5NTcyYmQxYTU3ZDQ3ZmMxOTI3Yjg5YWJkNjBjYzc5Y2I4Yzc3ZmFhNzQ1ODE0NGUifX19'
+  Butterfree:
+    name: 'Butterfree'
+    id: "c95f8269-747c-468b-9f0e-440943840e64"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWUyYTUzYzI3ZjcyZmY4NDc5NTI0NWJhZDIzMjk4ZDhhNTlhMDYxM2RlZmJlZDYyNjM1M2ZjNjZhOTViIn19fQ=='
+  Wartortle:
+    name: 'Wartortle'
+    id: "9eb66d3a-dc08-43d6-b7b5-04a12fdfcf1f"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDdhMGZkMTZlYmZkYmM1MWY5Mzk4ZTMzODM1Y2VlMGM2NjRhMDgxNDJlZTc5ZjhmZmM1N2Q2YjdlYjUxOGVmIn19fQ=='
+  Bulbasaur:
+    name: 'Bulbasaur'
+    id: "bd8af622-477c-41e0-8068-ca4d02de10a5"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNlODZhOGE0MjMxZDFjZWU4MzcxNGViNWU5MzljNmQzMDc4ZWE2ODMyYmY5M2ViYTY2ZDEyZGMyNWVhOTVhIn19fQ=='
+  Ivysaur:
+    name: 'Ivysaur'
+    id: "f16c7dcb-d30c-4948-ad17-f3b8c8b47c34"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk5ZWM5NDNiNDhjNmY4MmYzMmFjZDllODYyNjU0NmRlODQxNmNjZTRkYTQxY2JhYTAyYzY5ZmVlZmJlYSJ9fX0='
+  Swampert:
+    name: 'Swampert'
+    id: "fa4747eb-403c-4c7d-8e47-cf4d03c32c79"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdmYmQzNjY3ZDMyNThjM2MyYTI5MTQ5N2Y0MjdhYjJiM2NlYWE1ZGYwZWZmNjJlZGMzMjE5ZGNkNzE1NzAifX19'
+  Growlithe:
+    name: 'Growlithe'
+    id: "641385d3-db22-4b8c-b8c4-9d6df1c8a510"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE1MjEzZDM4NTI2OGFkM2JkMTc5ZTYxM2YxZmFjOTlmYTgzOTI4MzFmYzlmNmYxMGRiNTk5Y2Y1OWNlZmZiIn19fQ=='
+  Greninja:
+    name: 'Greninja'
+    id: "607f3d74-c3fb-4133-a4c4-f47d6cb70b50"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkyZmQyNjRjZmMwMmY1OGNjYTdhZGYwZmE2OThhYWY4ZWYyMzM5YjJlZTQ5N2MzYmNmZjc0ZWI5YWViYTkxMiJ9fX0='
+  Charmander:
+    name: 'Charmander'
+    id: "85736b63-e091-4d8e-9f31-42e549d40b95"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM4OTkyZmE3MWQ1ZDk4Nzg5ZDUwNjFkZGQ2OGUyYjdhZjllZmMyNTNiMzllMWIzNDYzNDNkNzc4OWY4ZGMifX19'
+  Chespin:
+    name: 'Chespin'
+    id: "66625908-06f3-4a1c-8abd-4e96ca6fdae3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU2YWRmODVjZDhiODg2ZWM3NWI3MmQ3NjEyZTViNmQyZmQ3ZDUyZTY1NzMxNmNiNjZmNmQ5ZDY4MjY5MzVhMiJ9fX0='
+  Terrakion:
+    name: 'Terrakion'
+    id: "c38bf9e5-9cc6-44f3-99d6-325027f01f6d"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRmYjVlNmY4YzgyNjc2NzliNzgyODBkNWExMGNkNDEyMmU1MGE5N2JlMjlmYTBmNGYxYzYxZmZkM2ZkYSJ9fX0='
+  Virizion:
+    name: 'Virizion'
+    id: "eb8adf0c-5aa1-49f1-ba15-eecb42a711c4"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRiZjNhOGVlOTkxOGU5YzFjMDc5YWQ2OTYzZTg0YWU4MjQyN2NmNGVhMjBmZGM2MmFhMWQ2NDBjZWJhIn19fQ=='
+  Noivern:
+    name: 'Noivern'
+    id: "ebba4ec9-ba2c-48fd-852c-b77a60da236b"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjNlODdjYmJhMjcwNTlmNWU4YzM0ZjU5OWMyNWFhYjk0MjIwNjNlYWJhODAyYzMyNzc2YjNkODBhYWQ3NGY2OSJ9fX0='
+  Jigglypuff:
+    name: 'Jigglypuff'
+    id: "2eb109d9-35ba-43a1-9175-39725cddee37"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE2ZjEyNjIxZTUzNjM1OTViYzZkNjhmYTE4NWNlZGZjZWFhZGEzZDgyYjYwYzEzZmRjNGEwMzI2OSJ9fX0='
+  Grovyle:
+    name: 'Grovyle'
+    id: "b369d697-3e7e-402d-9493-9035628c4718"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU1Y2FlNDkxM2U5N2Y0OTgzOGQ0YThkZGY3MTFmOTU5OGQ1NjJiY2I1OGUzOWYzZDQxYzYwZDNiZTcyMSJ9fX0='
+  Gabite:
+    name: 'Gabite'
+    id: "141ceff3-404d-417e-85d6-4567c164b613"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQ4MzJjZTJlNjVhYzE5NjQ4MmFmZTQ2ZGZmY2ZkODUyOWJjNDc3OWNjYjdlOWE1MmRmYTVjYmRhMTQ0ZDVjIn19fQ=='
+  Pokemon Egg:
+    name: 'Pokemon Egg'
+    id: "aed1706c-4f5c-4a9f-895f-1e14489d6191"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJhODUwZmVhYmIwNzM0OWNmZTI0NWIyNmEyNjRlYTM2ZGY3MzMzOGY4NGNkMmVlMzgzM2IxODVlMWUyZTJkOCJ9fX0='
+  Articuno:
+    name: 'Articuno'
+    id: "b1cd4221-4151-4bc9-8ab6-d0ed95397045"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmQ0Yjk4NjdkZWRlOTNlOGYyMjZmZjkxYjc3ZDdhM2NjYWYzZjZiMWVmNWY0ODZjZTYyZDExZTk0MyJ9fX0='
+  Luxray:
+    name: 'Luxray'
+    id: "6f865080-5aeb-4edd-a159-84ab24576593"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA2MDUxZmMyOGZjZmRiZWZiNTQzYWQ3OGEyYjI1NGIyNTRkZDZmMTcxYzczNDZiNDZhNDZkZDM5MjNmIn19fQ=='
+  Arcanine:
+    name: 'Arcanine'
+    id: "3bc6933f-236e-491b-8ca2-ac9ba8bcc545"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQzMGJkYTE5YzQ3YmM3OTFiZTExZjVjNzRiY2JkODNlZmZjNjA2ZDI5MWJiNGQzNjk4OGI3NjZmNmM2In19fQ=='
+  Mightyena:
+    name: 'Mightyena'
+    id: "4399cffe-4460-4f33-91f4-5ec173ebae9e"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc1NWRlODVjNmIzNzYyMDZmODAxMWY5Y2RmNTk0MTRhZGUyMDFmZTQzNDliZTBlYTE1YTc4OTdlNzAxNGZhIn19fQ=='
+  Eevee:
+    name: 'Eevee'
+    id: "c365f325-7a1b-415d-ab3b-5f77649eaf7f"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA0NGU5ZDE5YmVmNDc5MzNhZmY0MmJjZTRiNDU4ZjQzMTMxNTA5MGQ2MTNmNTRiNmU3OTVkYTU5ZGI5ZDBkZSJ9fX0='
+  Vulpix:
+    name: 'Vulpix'
+    id: "93dafe17-9241-4b6f-9d68-6843905c3107"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJiNzY0YTczMTdlOTAxYzdiZDhjMjQ4Y2QxMzg3ZTZhZjZiYzgzMzViODlkOTIzZjYxOGY4ZmViYmZiOTUifX19'
+  Gengar:
+    name: 'Gengar'
+    id: "5d267471-8d53-4903-9ce9-cb7882bc120b"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTQyOGJjYjJhZDYyNTY3ZTFiZDBkNGRhYzZmNDczZmU5ZGUxNzVkYjExNzQyMjE0NGM0NjU3NWZmNWUxIn19fQ=='
+  Raichu:
+    name: 'Raichu'
+    id: "fc651254-c8a3-4a88-a730-363b3cf5bed5"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJmNTIzZjJiZDkwYjNmZjE5NDQ1MTViNmEzMjQzMzhhYWQ0N2VhMWYyY2U5M2Y4MmQ1NTY0YzRjOWFkZTcxIn19fQ=='
+  Beedrill:
+    name: 'Beedrill'
+    id: "dc813fa8-0cfb-4a2b-8bf9-2da8deb0126a"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM0OGNhMWNlNDQ3YzFkYWEzOTliNGRlNjNiYjE5MDY2N2Y4ODdjYWY2ZTNlOGVkNTM3ZjA5MGE1ZmI2NGI4In19fQ=='
+  Cubchoo:
+    name: 'Cubchoo'
+    id: "e6fbccf7-e5ae-465a-aa3b-90a0b6c2abab"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRmNDUxNTIzZGQ2NmM0ZTg5MmFlNTlhYTc5ZTlkZGNjNTI5MDQ1NDdmNWRmNWY2ODMxMDhkZGQ0MjJmZWMifX19'
+  Bidoof:
+    name: 'Bidoof'
+    id: "b0d512b4-11ca-4cd3-9874-9631f1afed51"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdhNWU1MjE4M2U0MWIyOGRlNDFkOTAzODg4M2QzOTlkYzU4N2Q0ZWIyMzBlNjk2ZDhmNmJlNmQzZTU3Y2YifX19'
+  Buizel:
+    name: 'Buizel'
+    id: "d792a14a-edb2-4c71-9869-169d5df8ec60"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjQ0MDk3MmYxZGNiMjQ0ODcyZDJmMTAyNmRhY2ViOTRkYWRiOTg1MWNhNTkzMmUxNTE1NGZmZTdlM2JlOCJ9fX0='
+  Arceus:
+    name: 'Arceus'
+    id: "3e01c6fc-4cd3-458c-a50d-7ea28960880e"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2M3ZWFkZTcyNmIzOTFmN2YzYWI1ZDhiNWNmYzczNzY1NThiYWE4ODVkZTIyOWQ2ZGNiZDZiNjRlYzg5YWE3MCJ9fX0='
+  Flaaffy:
+    name: 'Flaaffy'
+    id: "b66eed10-9d67-4af2-856a-87e329d6d6e3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEyMTM3ZjM4NDRiMDMxNDMyZTMyMzYzMTdkNTU1M2ZiMjQ3ZWZlNzJlZTY4NmI4NTljZGNjNGYxOWUyYzMifX19'
+  Deino:
+    name: 'Deino'
+    id: "387728d7-07d0-4b3b-83f6-3fd18fa03914"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI5YTY3Yzc5MDVkMWFlN2M4NjUzZjZhNmU5ZjU0OTE5Zjg5MjZkMzY3MTQyM2E1ZmFmYWU2Yzk1YjkyOTgifX19'
+  Muk:
+    name: 'Muk'
+    id: "2a487180-e579-474b-a86c-65c84b1200bd"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWFlNTY4ZWU1OTc4MzQ5YWRjNjNhNWJmMzdmMDgyZWY1NTEyYmIyNjRjZGI3NTk4ZWZlY2Q3MWY0MmQxMyJ9fX0='
+  Oshawott:
+    name: 'Oshawott'
+    id: "47679441-af19-4a4e-baaa-9b7089b66324"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjJiMWIzNmIyOTg1OTdjZGEyNmY3MjY1MmNhZjg0ZTBlN2RkZmFiNTRkZmY2ZjUyNTkzNzE3NDNlMjU4NSJ9fX0='
+  Cresselia:
+    name: 'Cresselia'
+    id: "260d557e-cf7e-468a-bc1b-9b2e394784e3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThjOGRhNWEyYTc3M2NlNGY1ZjUyOTY3NGMyZGY1MDVlNmZiOGU4NWQ3MTM5OWIxZjU2NjQwYmViMmZkZTcifX19'
+  Yveltal:
+    name: 'Yveltal'
+    id: "83f932e0-94b9-4f90-970d-bcffc2e36a46"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTVhZTY0Yzg3ZGU0NTFmZjExMjgyNTE0OTM1MzdlYWUzZWQ1MzYyOTgwYWFjZDU5MWNiNWUxMmI1Y2Y3YTI1NyJ9fX0='
+  Wailord:
+    name: 'Wailord'
+    id: "2f0b35b5-b5c6-44da-b104-a7a20f08834d"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDIxMTQyMTcyNDI0YjIxMGIxN2E5Y2EyZjQ0OWE0NDQ5NTE4NGFkZjgzYzk2NGQzODVmYTc1OGExMjAifX19'
+  Moltres:
+    name: 'Moltres'
+    id: "06b5b0a7-be85-45e3-b59d-2f66ed9fbd46"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmNmMDIyYTg5ZWYyMWZhZGEyNmQ5ZjY0OGUxNWNkZjQzZjJlZGI3NDk3MWY0NDIzY2ViNWFjNGEzNDNhNWYifX19'
+  Mew:
+    name: 'Mew'
+    id: "97423dfd-0a6b-4a69-96c6-2ee4211ef372"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzVjZDNjNzJkY2M3ZWVkY2ZmY2IyMjIxYjM4YjViOGFjNDcwNWZmZGM0NTc0NjFhODE2NTM4ODc0YjRjZiJ9fX0='
+  Zygarde:
+    name: 'Zygarde'
+    id: "97717335-4adb-48b2-bf42-d6d99c5fab21"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTA1NGEwMTlmNDVkN2FhNjE5ZGQ1YmUxZDRlNjhjNzljMGRmYWNiMjYwNjgxNDM5YzdiNDEzODY5YzhkYzcifX19'
+  Zapdos:
+    name: 'Zapdos'
+    id: "fc81facf-3201-47ef-ae9d-b2e22caea2e1"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlhNjZmM2QyNThkOTI3ZjdlNDgxODE0OGJhYzY3YjIzZTc5MjRhOTNiODlmM2M5NmI4NzU0YmZjYjQ4Zjc1In19fQ=='
+  Manaphy:
+    name: 'Manaphy'
+    id: "9b425c4f-6fcd-4bea-a0b0-14f242a00754"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzcxZjJmMWQ1ZTRmZWFlNmY4OTM4MTZhOGNjNzg5MTU1MzY2NzQ3MjY0ZjlhMzZlZmM3MTNiYjhmOWMzZDYifX19'
+  Koffing:
+    name: 'Koffing'
+    id: "2054423f-284c-433e-9d80-fe9600e7ef29"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjE3NmRlYzQ5YTkzMTA5NmEwOWIyMmFkZDA0MDJhYjJjN2Y0ODk4NzcxMTA5MWQwMThlMDJiNGJiMWU1NyJ9fX0='
+  Omanyte:
+    name: 'Omanyte'
+    id: "2c4d20aa-f0df-4c8e-9ae1-94dfd48c1ed2"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM3MzhmY2I2OWM0OGVmNjBkNjU0ZGE0YzJjNDkzYzc1YjdjMjlmYmY4ZDgzNmJkZjVmOThiY2FiOGJhIn19fQ=='
+  Cubone:
+    name: 'Cubone'
+    id: "4d5eb419-f2e9-46fa-88b2-d5b49aedaef3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E0ZmE3MWFkMjhjZDFlMWI3ZWE5MzU4MTczMDgyNWNiYTk2Y2FjM2NkM2IxYmM3MmE5N2VhNTRkZTUzNCJ9fX0='
+  Voltorb:
+    name: 'Voltorb'
+    id: "9aa4abee-bee6-4770-811d-f8b02fa30b43"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTJmM2Y5Y2NhNzdjNzI1MjE3ZTQ1YWQ0ZWVlZWZmYTA1NjVmODJiODY2YWM2Nzk5OWI0M2MzYTk3MzExNjI4YyJ9fX0='
+  Electrode:
+    name: 'Electrode'
+    id: "419b7cce-de74-41b4-a14c-67db879c74ff"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWVlZmUxMTkxNTc5OTU3YzgzMjUwYThjZThmZWZkNTVmNGQ3NmM1MGQ4MTA5NGM5MjA5ODk1ZjRiZDYwMCJ9fX0='
+  Weedle:
+    name: 'Weedle'
+    id: "0b135f1f-8345-4f74-ad80-46f7e3bce3f3"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI5NjU5ZDExZTJkNGYzMGMzZTU5NDdhMWZjOTMyMWE4ZDljMTA1ZWQ3MmU5MjdhNTBjYjNlOGQ3MjkxNTMzIn19fQ=='
+  Kakuna:
+    name: 'Kakuna'
+    id: "c20f81a4-89dc-41a4-9384-6be0ea7abd02"
+    texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE5YTgwMWYxMTljNjMxYTljOWZhMDQ3YTJjMjViYzBiNmNiZjkwODIzN2Q3NGNiMWE0MTA4NTEwN2M1OTcifX19'
+
+# Do not touch any fields below this!!
+version: 1
